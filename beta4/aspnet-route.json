@@ -1,0 +1,13 @@
+{
+  "kind": "Route",
+  "apiVersion": "v1beta3",
+  "metadata": {
+    "name": "aspnet-example-route"
+  },
+  "spec": {
+    "host": "hello-aspnet.cloudapps.example.com",
+    "to": {
+      "name": "rgen-aspnet-source"
+    }
+  }
+}
