@@ -6,6 +6,27 @@
       "apiVersion": "v1beta3",
       "kind": "ImageStream",
       "metadata": {
+        "name": "aspnet"
+      },
+      "spec": {
+        "dockerImageRepository": "shrutikamendhe/rgen-aspnet",
+        "tags": [
+          {
+            "name": "latest",
+            "annotations": {
+              "description": "Build and run ASP.NET 5 applications",
+              "iconClass": "icon-ruby",
+              "tags": "builder,aspnet",
+              "version": "5.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1beta3",
+      "kind": "ImageStream",
+      "metadata": {
         "name": "ruby"
       },
       "spec": {
@@ -35,10 +56,10 @@
           {
             "name": "latest",
             "annotations": {
-              "description" : "Build and run NodeJS 0.10 applications",
-              "iconClass" : "icon-nodejs",
-              "tags" : "builder,nodejs",
-              "version" : "0.10"
+              "description": "Build and run NodeJS 0.10 applications",
+              "iconClass": "icon-nodejs",
+              "tags": "builder,nodejs",
+              "version": "0.10"
             }
           }
         ]
@@ -119,10 +140,10 @@
           {
             "name": "latest",
             "annotations": {
-              "description" : "Build and run Java applications on Wildfly 8",
-              "iconClass" : "icon-wildfly",
-              "tags" : "builder,wildfly,java",
-              "version" : "8"
+              "description": "Build and run Java applications on Wildfly 8",
+              "iconClass": "icon-wildfly",
+              "tags": "builder,wildfly,java",
+              "version": "8"
             }
           }
         ]
@@ -138,7 +159,7 @@
         "dockerImageRepository": "openshift/mysql-55-centos7",
         "tags": [
           {
-            "name":"latest"
+            "name": "latest"
           }
         ]
       }
@@ -153,7 +174,7 @@
         "dockerImageRepository": "openshift/postgresql-92-centos7",
         "tags": [
           {
-            "name":"latest"
+            "name": "latest"
           }
         ]
       }
@@ -168,7 +189,7 @@
         "dockerImageRepository": "openshift/mongodb-24-centos7",
         "tags": [
           {
-            "name":"latest"
+            "name": "latest"
           }
         ]
       }
