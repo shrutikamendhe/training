@@ -7,7 +7,7 @@
   "spec": {
     "host": "hello-aspnet.cloudapps.example.com",
     "to": {
-      "name": "rgen-aspnet-source"
+      "name": "aspnet-app-test"
     }
   }
 }
