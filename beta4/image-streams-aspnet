@@ -27,6 +27,27 @@
       "apiVersion": "v1beta3",
       "kind": "ImageStream",
       "metadata": {
+        "name": "mvc-sti"
+      },
+      "spec": {
+        "dockerImageRepository": "shrutikamendhe/rgen-mvc-sti",
+        "tags": [
+          {
+            "name": "latest",
+            "annotations": {
+              "description": "Build and run MVc applications",
+              "iconClass": "icon-ruby",
+              "tags": "builder,aspnet",
+              "version": "5.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "v1beta3",
+      "kind": "ImageStream",
+      "metadata": {
         "name": "mvc"
       },
       "spec": {
