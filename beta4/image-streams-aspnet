@@ -9,7 +9,7 @@
         "name": "click2cloud-aspnet"
       },
       "spec": {
-        "dockerImageRepository": "click2cloud/aspnet-sti-50",
+        "dockerImageRepository": "click2cloud/aspnet-sti",
         "tags": [
           {
             "name": "latest",
