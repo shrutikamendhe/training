@@ -27,69 +27,6 @@
       "apiVersion": "v1beta3",
       "kind": "ImageStream",
       "metadata": {
-        "name": "aspnet"
-      },
-      "spec": {
-        "dockerImageRepository": "shrutikamendhe/rgen-aspnet",
-        "tags": [
-          {
-            "name": "latest",
-            "annotations": {
-              "description": "Build and run ASP.NET 5 applications",
-              "iconClass": "icon-ruby",
-              "tags": "builder,aspnet",
-              "version": "5.0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "apiVersion": "v1beta3",
-      "kind": "ImageStream",
-      "metadata": {
-        "name": "mvc-sti"
-      },
-      "spec": {
-        "dockerImageRepository": "shrutikamendhe/rgen-mvc-sti",
-        "tags": [
-          {
-            "name": "latest",
-            "annotations": {
-              "description": "Build and run MVc applications",
-              "iconClass": "icon-ruby",
-              "tags": "builder,aspnet",
-              "version": "5.0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "apiVersion": "v1beta3",
-      "kind": "ImageStream",
-      "metadata": {
-        "name": "mvc"
-      },
-      "spec": {
-        "dockerImageRepository": "shrutikamendhe/rgen-mvc",
-        "tags": [
-          {
-            "name": "latest",
-            "annotations": {
-              "description": "Build and run MVC applications",
-              "iconClass": "icon-ruby",
-              "tags": "builder,mvc",
-              "version": "5.0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "apiVersion": "v1beta3",
-      "kind": "ImageStream",
-      "metadata": {
         "name": "ruby"
       },
       "spec": {
